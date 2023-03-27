@@ -1,19 +1,26 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>JavaScript Quiz</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div id="home" class="flex-center flex-column">
-        <h1>Are you Ready?</h1>
-        <a class="btn" href="/game.html">Start Quiz</a>
-        <a class="btn" href="/highscores.html">High Scores</a>
-      </div>
-    </div>
-  </body>
-</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Javascript Quiz</title>
+</head>
+
+<body>
+    <header>
+        <a id=leaderboard-link>Highscores 
+        </i></a> 
+        
+        <time>Time remaining: <span id="time"></span></time>
+    </header>
+
+    <main>
+        <div id=start-card class="card">
+            <h2 id=title>Javascript Quiz Challenge</h2>
+            <p>Try to answer to following multiple choice javascript questions within the time limit. 
+				<br><br> Incorrect answers will reduce your time by ten seconds.</p>
+            <button id=start-button class="button">Start Quiz!</button>
+        </div>
+
